@@ -27,7 +27,7 @@
 	.formcontent>h1{
 	flex-basis: 50%;
 	font-weight: 700;
-	font-size: 45px;
+	font-size: 43px;
 	line-height: 60px;
 	padding: 10px 0px 0px;
 	}
@@ -193,53 +193,48 @@
 	background: #F7FAFF;
 	padding: 20px;
 	}
+
+	.cirtificateholder{
+		margin: auto;
+	}
 	.certificatemid{
 		flex-direction: column;
-		justify-content: space-between;
+		gap: 30px;
+		align-items: center;
 	}
 	.cirtificatecontent{
 		flex-basis: 100%;
 	}
 	.certificatesample{
-		flex-basis: 100%;
-	}
-	.cirtificateholder{
 	width: 100%;
+	padding: 20px ;
 	height: auto;
-	display: flex;
-	flex-direction: column;
-	margin-left: 0px;
-	background: white;
-	border-radius: 8px;
-	z-index: 998;
-	padding: 10px;
-	margin: 20px 0px;
-	}
-	.certificatesample>figure:nth-child(1){
-	position: absolute;
-	top: 11px;
-    left: 47px;
-	}
-	.certificatesample>figure:nth-child(2){
-		position: absolute;
-		top: 58%;
-        right: -18px;
-	}
+}
+
 	.cirtificateholder>figure{
-		display: flex;
-		justify-content: center;
-		align-items: center;
+		width: 100%;
+		height: auto;
 	}
 	.cirtificateholder>figure>img{
 		width: 100%;
 		height: auto;
-		z-index: 999;
 	}
 		.curriculummid>nav>ul>li>a{
-		padding: 10px 30px;
+		padding: 10px 0px;
+		font-size: 16px;
 	}
 
-	
+	.curriculummid>nav>ul{
+	display: flex;
+	width: 100%;
+	align-items: baseline;
+	justify-content: center;
+
+	}
+	.curriculummid>nav>ul>li{
+	width: 100%;
+
+	}
 	.curriculummid>nav>ul>li:nth-child(3){
 		display: none;
 	}
@@ -263,7 +258,7 @@
 	box-shadow: 0px 2px 10px 0px #ccc;
 	}
 	.intro>p{
-	font-size: 18px;
+	font-size: 16px;
 }
 	.midwhy{
 		padding: 0px 20px;
@@ -289,26 +284,15 @@
 	flex-direction: column;
 	gap: 20px;
 	}
+	.companylogos>img{
+	width: 350%;
+	}
 	.companylogos{
-		display: none;
+		width: 100%;
+		overflow-x: scroll;
 	}
-	.mobilecompanies{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	}
-	.mobilecompanies{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	.mobilecompanies>img{
-	width: 180px;
-	height: auto;
-	text-align: center;
-	margin: auto;
+	footer{
+		padding: 20px 0px 50px;
 	}
 }
 @media only screen and (min-width: 576px) and (max-width: 900px) {
@@ -506,47 +490,30 @@
 	background: #F7FAFF;
 	padding: 20px;
 	}
+	.cirtificateholder{
+		margin: auto;
+	}
 	.certificatemid{
 		flex-direction: column;
-		justify-content: space-between;
+		gap: 30px;
+		align-items: center;
 	}
 	.cirtificatecontent{
 		flex-basis: 100%;
 	}
 	.certificatesample{
-		flex-basis: 100%;
-	}
-	.cirtificateholder{
 	width: 100%;
+	padding: 20px ;
 	height: auto;
-	display: flex;
-	flex-direction: column;
-	margin-left: 0px;
-	background: white;
-	border-radius: 8px;
-	z-index: 998;
-	padding: 10px;
-	margin: 20px 0px;
-	}
-	.certificatesample>figure:nth-child(1){
-	position: absolute;
-	top: 11px;
-    left: 47px;
-	}
-	.certificatesample>figure:nth-child(2){
-		position: absolute;
-		top: 58%;
-        right: -18px;
-	}
+}
+
 	.cirtificateholder>figure{
-		display: flex;
-		justify-content: center;
-		align-items: center;
+		width: 100%;
+		height: auto;
 	}
 	.cirtificateholder>figure>img{
 		width: 100%;
 		height: auto;
-		z-index: 999;
 	}
 	.curriculummid>nav>ul>li>a{
 		padding: 10px 30px;
@@ -595,25 +562,14 @@
 	flex-direction: column;
 	gap: 20px;
 	}
+	.companylogos>img{
+	width: 200%;
+	}
 	.companylogos{
-		display: none;
+		width: 100%;
+		overflow-x: scroll;
 	}
-	.mobilecompanies{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	}
-	.mobilecompanies{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	.mobilecompanies>img{
-	width: 180px;
-	height: auto;
-	text-align: center;
-	margin: auto;
+	footer{
+		padding: 20px 0px 50px;
 	}
 }
